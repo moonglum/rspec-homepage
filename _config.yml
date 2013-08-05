@@ -1,0 +1,7 @@
+name: RSpec
+markdown: redcarpet
+
+# Setup on GitHub Pages according to [GitHub](https://help.github.com/articles/using-jekyll-with-pages)
+safe: true
+lsi: false
+pygments: true

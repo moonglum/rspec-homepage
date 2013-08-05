@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <header>
+              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <a class="extra" href="/">Behaviour Driven Development for Ruby</a>
+            </header>
+
+            <div class="main-container">
+              <article>
+                  {{ content }}
+              </article>
+
+              <nav>
+                <ul>
+                {% for page in site.pages %}
+                  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+                </ul>
+              </nav>
+            </div>
+
+            <footer>
+              <p>
+                <strong>This page is not official. It is a proposal to the RSpec Core Team by Lucas Dohmen</strong>
+                (<a href="http://github.com/moonglum/rspec-homepage">Source</a>)<br />
+              </p>
+              </div>
+            </footer>
+          </div>
+        </div> <!-- /container -->
+    </body>
+</html>
