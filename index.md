@@ -5,7 +5,10 @@ title: Welcome
 
 # Welcome
 
-**Include Welcome Text here**
+* What is RSpec?
+* This is page is for beginners, but also a refresher for experienced users
+* A few words about the old `should` and the new `expect` syntax
+* Some News below
 
 ## Blogposts
 
