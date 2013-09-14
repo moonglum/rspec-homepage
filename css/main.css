@@ -87,9 +87,9 @@ a:visited { color: #a0a; }
 }
 
 .site nav ul {
-  padding: 0px 5px;
+  padding: 0px 15px;
   list-style: none;
-  text-align: right;
+  text-align: left;
 }
 
 .site footer {
